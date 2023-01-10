@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yegor Shvayuk CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400&display=swap"
+        rel="stylesheet" />
+    <link rel="icon" href="assets/img/fav.ico" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="page-body">
+    <header>
+        <button class="burger">
+            <span class="burger__line"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#about-me">About me</a></li>
+                <li class="nav__item"><a href="#skills">Skills</a></li>
+                <li class="nav__item"><a href="#strengths">Strengths</a></li>
+                <li class="nav__item"><a href="#code-example">Code</a></li>
+                <li class="nav__item"><a href="#projects">Projects</a></li>
+                <li class="nav__item"><a href="#contact">Contact</a></li>
+                <li class="nav__item"><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="left-side">
+            <figure class="figure--left-side">
+                <img src="assets/img/my-foto-3.jpg" width="380" height="507" class="photo" alt="Photo of Yegor Shvayuk" />
+            </figure>
+            <section class="contact" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <ul class="contact__list">
+                    <li class="contact__item">
+                        Phone: <br>
+                        +375445760039
+                    </li>
+
+                    <li class="contact__item">
+                        Email:<a href="mailto:radzivil@tut.by">radzivil@tut.by</a>
+                    </li>
+                    <li class="contact__item">
+                        Discord: <br>
+                        Radzivil#5336
+                    </li>
+                    <li class="contact__item">
+                        Address:<br />
+                        <span>Minsk, Belarus</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="education__list">
+                    <li class="education__item">
+                        1999-2004 <br>Belarusian State University -<br>
+                        Jurisprudence
+                    </li>
+                    <li class="education__item">
+                        2011 <br>NIMA, Nederlands Instituut voor Marketing - <br>Marketing Manager Level 6 (NIMA B)
+                    </li>
+                    <li class="education__item">
+                        2022-2023 <br>Online courses:<br> Stepik.org - HTML, CSS, Python;  <br> 
+                        The RS School  - JavaScript/Front-end
+                    </li>
+
+                </ul>
+            </section>
+        </div>
+        <div class="right-side">
+            <section class="page-title">
+                <h1 class="main-title">Yegor <br />Shvayuk</h1>
+                <p>Front-end developer (Beginner)</p>
+            </section>
+            <figure class="figure--right-side">
+                <img src="assets/img/my-foto-3.jpg" width="380" height="507" class="photo" alt="Photo of Yegor Shvayuk" />
+            </figure>
+            <section class="about-me" id="about-me">
+                <h2 class="section-title">About me</h2>
+                <p>
+                    I like to study and learn something new. I like to read books, do
+                    physical education, listen to music. I lead active and healhy lifestyle. I like to
+                    work and see the results of my work.<br>
+                    Since childhood, I have had a predisposition to work with
+                    electronics and computers. I like to disassemble, assemble and
+                    configure something. I can build, configure, solve problems with
+                    computers. I'm forty years old.
+                </p>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills__list">
+                    <li>English - B1</li>
+                    <li>HTML, CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python, SQL</li>
+                    <li>Figma, Photoshop, Git</li>
+                </ul>
+            </section>
+            <section class="key-strengths" id="strengths">
+                <h2 class="section-title">Key strengths</h2>
+                <ul class="key-strengths__list">
+                    <li>Hardworking</li>
+                    <li>Responsible</li>
+                    <li>Sociable</li>
+                    <li>Quick learner</li>
+                    <li>Goal-oriented</li>
+                    <li>Conscientious</li>
+                </ul>
+            </section>
+            <section class="code-example" id="code-example">
+                <h2 class="section-title">Code example</h2>
+                <details>
+                    <summary>From Stepik.org course "Поколение Python": курс для продвинутых</summary>
+                    <pre>
+              <code data-language = "python">
+# вычисление приближённого значения числа π при помощи метода Монте-Карло 
+import random
+
+n = 10**6
+S = 4
+k = 0
+
+for _ in range(n):
+x = random.uniform(-1, 1)
+y = random.uniform(-1, 1)
+if x**2 + y**2 <= 1: k +=1 print((k/n) * S)
+              </code>
+            </pre>
+                </details>
+            </section>
+            <section class="projects" id="projects">
+                <h2 class="section-title">My projects</h2>
+                <ul class="projects__list">
+                    <li class="projects__item">
+                        <a href="https://radzivil-2022.github.io/project1/"
+                            target="_blank">
+                            <img src="assets/img/clock.jpg" width="1722" height="969" alt="JS Clock screenshot"
+                                class="projects__image">
+                            <h3 class="projects__title">JavaScript Clock
+                                <div class="projects__technologies">
+                                    <img src="assets/img/icons8-html-5-48.png" alt="HTML5" title="HTML5">
+                                    <img src="assets/img/icons8-css3-48.png" alt="CSS3" title="CSS3">
+                                    <img src="assets/img/icons8-javascript-48.png" alt="JavaScript" title="JavaScript">
+                                </div>
+                            </h3>
+                        </a>
+                    </li>
+
+                    <li class="projects__item">
+                        <a href="https://radzivil-2022.github.io/project2/"
+                            target="_blank">
+                            <img src="assets/img/slider.jpg" width="1724" height="970" alt="Slider screenshot"
+                                class="projects__image">
+                            <h3 class="projects__title">Vertical Slider
+                                <div class="projects__technologies">
+                                    <img src="assets/img/icons8-html-5-48.png" alt="HTML5" title="HTML5">
+                                    <img src="assets/img/icons8-css3-48.png" alt="CSS3" title="CSS3">
+                                    <img src="assets/img/icons8-javascript-48.png" alt="JavaScript" title="JavaScript">
+                                </div>
+                            </h3>
+                        </a>
+                    </li>
+
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <a class="footer__github" href="https://github.com/Radzivil-2022" target="_blank">
+            My GitHub
+        </a>
+        <p class="footer__year">JS From Zero To Hero 2023</p>
+        <a class="footer__datamola" href="https://www.datamola.com/" target="_blank">
+            <img src="assets/img/datamola.jpg" width="86" height="32" alt="DataMola" />
+        </a>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
